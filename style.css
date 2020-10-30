@@ -1,0 +1,399 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+.cont{
+    display: grid;
+    grid-template-rows:auto; 
+}
+/******sec1******/
+.sec1{
+    background-image: url(images/Mask%20Group%201.png);
+    background-repeat:no-repeat;
+    width: 100%;
+    height: 1000px;
+    background-size: 100% 1000px;
+}
+.nav1{
+    display: flex;
+    padding-top: 20px;
+}
+.HomelyDecor{
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+    padding-top: 50px;
+    padding-left: 50px;
+    white-space: nowrap;
+}
+ul{
+    list-style: none;
+    display: inline-flex;
+    padding-top: 50px;
+    padding-left: 350px;
+}
+.li1{
+    color: white;
+    font-size: 22px;
+    padding-left: 40px;
+    
+}
+.list2{
+    display: flex;
+    flex-basis: 100px;
+    padding-left: 80px;
+    padding-top: 40px;
+    align-items: center;
+}
+.search-icon{
+    color: white;
+    flex-basis: 30px;
+}
+.amazon{
+     color: white;
+     flex-basis: 30px;
+}
+.contact{
+     color: white;
+     flex-basis: 30px;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 50px;
+}
+.para{
+    white-space: nowrap;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    margin-top: -40px;
+}
+.btn{
+    color: white;
+    font-size: 26px;
+    border: 2px solid #F1F1F1;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+/******sec2******/
+.sec2{
+    display: grid;
+    grid-template-areas: 
+        "a b"
+        "a c";
+    grid-gap: 10px;
+    justify-content: center;
+    padding: 100px;
+}
+#img1{
+    grid-area: a;
+    background-image: url(images/Mask%20Group%206.png);
+    height: 510px;
+    width: 427px;
+    background-repeat: no-repeat;
+    background-size: 427px 510px;
+}
+
+.bl{
+    background: black;
+    height: 130px;
+    width: 427px;
+    display: flex;
+    flex-direction: column;
+    opacity: 60%;
+    margin-top: 380px;
+}
+#black1{
+    color: white;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#black2{
+    color: white;
+    font-size: 24px;
+    margin-left: 20px;
+}
+#img2{
+    grid-area: b;
+}
+#img3{
+    grid-area: c;
+}
+/******sec3******/
+.sec3{
+    background: #F1F1F1;
+    height: 1550px;
+    width: 100%;
+}
+.feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    padding-top: 70px;
+   
+}
+.fea{
+    color: black;
+    font-size: 50px;
+    padding: 10px;
+}
+.fp{
+    color: black;
+    font-size: 24px;
+    opacity: 60%;
+    padding: 8px;
+}
+.fimage{
+    padding: 12px;
+}
+.nav22{
+    display: flex;
+    list-style: none;  
+    margin: 0;
+    margin-left: -240px;
+}
+#a1{
+    font-size: 24px;
+    opacity: 60%;
+    padding: 20px;
+} 
+#a2{
+    font-size: 24px;
+    padding: 20px;
+}
+.grid3{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    margin-left: -150px;
+    padding-top: 20px;
+    grid-column-gap: 170px;
+    justify-content: center;
+}
+.btn2{
+    color: black;
+    text-align: center;
+    border: 2px black solid;
+    background-color: none;
+    margin-left: 560px;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 24px;
+}
+/******sec4******/
+.sec4{
+    background-color: none;
+}
+.arrival{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.newArrival{
+    font-size: 50px;
+    padding-top: 10px;
+}
+.p3{
+    padding-top: -30px;
+    white-space: nowrap;
+    font-size: 24px;
+}
+.flex4{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,250px);
+    grid-gap: 10px;
+    padding-left: 160px;
+    padding-bottom: 120px;
+}
+.backi{
+    background-image: url(images/Mask%20Group%2025.png);
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    background-size: 250px 250px;
+}
+.blackBar{
+    width: 250px;
+    height: 50px;
+    background: black;
+    opacity: 60%;
+    
+    margin-top: 200px;
+}
+.h11{
+    color: white;
+    font-size: 26px;
+    padding: 10px;
+}
+.h22{
+    color: white;
+    padding: 10px;
+}
+/******sec5******/
+.sec5{
+    background-image: url(images/Mask%20Group%2026.png);
+    height: 643px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 643px;
+}
+.exl{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+   
+}
+.exclusive{
+    margin-top: 80px;
+    font-size: 60px;
+    text-align: center;
+}
+.upto{
+    font-size: 40px;
+    text-align: center;
+}
+.time{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 50px;
+}
+.bttn{
+    margin-top: 50px;
+    color: black;
+    text-align: center;
+    border: 2px black solid;
+    background-color: none;
+    margin-left: 550px;
+    margin-right: 550px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 24px;
+}
+/******sec6******/
+.sec6{
+    height: 570px;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+.flex-hed{
+    font-size: 50px;
+    text-align: center;
+}
+.flex-p{
+    font-size: 24px;
+    text-align: center;
+    white-space: nowrap;
+    opacity: 70%;
+    padding-top: 10px;
+}
+#we{
+    padding-top: 30px;
+}
+.flex-row{
+    padding-top: 50px;
+    display: flex;
+}
+.cl1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: space-around;
+    margin-left: 130px;
+}
+.hw{
+    font-size: 22px;
+    text-align: center;
+}
+.he{
+    font-size: 18px;
+    text-align: center;
+    opacity: 70%;
+}
+.hl{
+    text-align: center;
+    padding-top: 10px;
+}
+/******sec7******/
+.sec7{
+   height: 580px;
+    width: 100%;
+    background: #F1F1F1; 
+}
+.see{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3,350px);
+    padding-top: 100px;
+    padding-right: 40px;
+    padding-left: 40px;
+    grid-gap: 20px;
+}
+.qw{
+    font-size: 40px;
+    padding-top: 50px;
+}
+.clee{
+    font-size: 18px;
+    opacity: 70%;
+    margin-top: -10px;
+}
+.fle2{
+    display: flex;
+    flex-direction: column;
+   padding: 20px;
+    padding-top: 100px;
+}
+.quick1{
+    font-size: 20px;
+    white-space: nowrap;
+    padding-left: 70px;
+}
+.quick{
+    font-size: 18px;
+    opacity: 70%;
+    padding-top: 10px;
+    padding-left: 70px;
+}
+/******sec8******/
+.sec8{
+    height: 40px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background:#3D7E9A;
+    padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
